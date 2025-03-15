@@ -1,0 +1,169 @@
+/* index.css */
+.container {
+  font-family: 'Poppins', sans-serif;
+  background-color: #111827;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-links a {
+  color: #a5b4fc;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #6366f1;
+  text-decoration: underline;
+}
+
+.page {
+  margin-top: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+
+.product-card h3 {
+  margin-bottom: 10px;
+  color: #f3f4f6;
+}
+
+.product-card .price {
+  font-weight: bold;
+  color: #60a5fa;
+}
+
+.product-card button {
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-card button:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+.add-product {
+  margin-top: 20px;
+}
+
+.product-form input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  background-color: #1f2937;
+  border: 1px solid #4b5563;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-form input:focus {
+  border-color: #6366f1;
+}
+
+.product-form button {
+  padding: 10px 15px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-form button:hover {
+  background-color: #059669;
+  transform: scale(1.05);
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn.logout-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn.logout-btn:hover {
+  background-color: #dc2626;
+  transform: scale(1.05);
+}
+
+.btn.edit-btn {
+  background-color: #facc15;
+  color: #111827;
+}
+
+.btn.edit-btn:hover {
+  background-color: #eab308;
+}
+
+.btn.remove-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn.remove-btn:hover {
+  background-color: #dc2626;
+}
+
+.btn.buy-btn {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btn.buy-btn:hover {
+  background-color: #2563eb;
+}
+
